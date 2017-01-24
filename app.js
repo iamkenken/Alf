@@ -56,7 +56,7 @@ server.post('/', (req, res, next) => {
 			postback,
 			message,
 		} = msg;
-		console.log(msg);
+		//console.log(msg);
 		//turn typing indicators on
 		f.senderAction(sender);
 
@@ -208,6 +208,17 @@ server.post('/', (req, res, next) => {
 			};
 			session.update(sessionId, context);
 			p.menusms(sender, f);
+			res.end();
+		}
+
+		if(message.quick_reply && message.quick_reply.payload === 'MENU_CLASSIFIEDS') {
+			//console.log(postback);
+			let sessionId = session.init(sender);
+			let {context} = session.get(sessionId);
+			context.action = 'classifieds';
+			session.update(sessionId, context);
+			console.log(context);
+			p.classifieds(sender, f, WEB_URL);
 			res.end();
 		}
 
