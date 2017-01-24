@@ -1,0 +1,19 @@
+{
+	"WIT_ACCESS_TOKEN": "W4GXMBB4VBA4KKE2KF2SFJU3DAUHR3EU",
+	"FB": {
+		"PAGE_ACCESS_TOKEN_": "EAAQGAH6TY84BAAa1ckVsKIKg17yOtPgJQRTEGZCKDt3EqgLxcr49bHE6RHEWWS11pGz3nc92wNxYQHdGNvUilvPBCgFYOIEHfX8VX6KyQt2wi9bRM2hMk4ZBnrwMxtHKwsDtiwvZCHXgWtNZAoZCag5kmE1wuitUcowec9zkyvwZDZD",
+		"PAGE_ACCESS_TOKEN": "EAASVgAGJ3qgBAAih0nxTZBU2XBe2nGgl21bbEmPpxQNNv34k44iLbBqqZAqJDhHMWbZAtptOMzVKEXc97oLA0SaT8epfyBaPbSqKuFOwfdrlEdcluZCINL5eJ9tJZAJigbr7PykFtNLmfjPcHAVcFshpkMz3Y0otF3W3SAQP2xwZDZD",
+		"VERIFY_TOKEN": "4812872483e5adeba0695af233d00b92fa58d039ae90329e",
+		"APP_SECRET_": "cc1ca0c433af31ac4c29e5d742c62162",
+		"APP_SECRET": "29dabf766f110a82023829bad7b076c5"
+	},
+	"API_URL_": "http://localhost/alfafusion/directory/public/api/v1",
+	"API_URL": "http://dev.alfafusion.com/fb-chatbot/alf/directory/public/api/v1",
+	"WEB_URL_LOCAL": "http://localhost/alfafusion/directory/public",
+	"WEB_URL": "https://dev.alfafusion.com/fb-chatbot/alf/directory/public",
+	"DIR_IMAGE_URL_": "http://localhost/alfafusion/directory/public/images/dir_logo",
+	"DIR_IMAGE_URL": "http://dev.alfafusion.com/fb-chatbot/alf/directory/public/images/dir_logo",
+	"OWM_KEY": "d14b5d9ea530ef1c8faa46cbf983c020",
+	"API_URL_CLASSIFIEDS_": "http://localhost/alfafusion/classifieds-bot/public/api/v1/classifieds",
+	"API_URL_CLASSIFIEDS": "http://dev.alfafusion.com/classifieds-bot/public/api/v1/classifieds"
+}

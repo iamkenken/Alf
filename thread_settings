@@ -1,0 +1,40 @@
+//Get Started
+
+curl -X POST -H "Content-Type: application/json" -d '{
+  "setting_type":"call_to_actions",
+  "thread_state":"new_thread",
+  "call_to_actions":[
+    {
+      "payload":"GET_STARTED"
+    }
+  ]
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAQkSX4Xp5kBAHwLz384HcTyiSzFAYpenZAdT5L33yR2LqCOgnGTZA6QnhkwhwgMKRw7WSg2z5TQCAspGK3JBwgshw1aZBTXmMGuiG3MNZBh52wfsKIeZC1e77juEZCD71ijfb2AKSZCZC1ZCCiQE1ZB5iru6K7Pa7e3VsKZBrZCP9uZByAZDZD"
+
+//Greeting
+curl -X POST -H "Content-Type: application/json" -d '{
+  "setting_type":"greeting",
+  "greeting":{
+    "text":"Hi {{user_first_name}}, My name is Alf."
+  }
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAAQkSX4Xp5kBAHwLz384HcTyiSzFAYpenZAdT5L33yR2LqCOgnGTZA6QnhkwhwgMKRw7WSg2z5TQCAspGK3JBwgshw1aZBTXmMGuiG3MNZBh52wfsKIeZC1e77juEZCD71ijfb2AKSZCZC1ZCCiQE1ZB5iru6K7Pa7e3VsKZBrZCP9uZByAZDZD"
+
+
+//Test page
+
+curl -X POST -H "Content-Type: application/json" -d '{
+  "setting_type":"call_to_actions",
+  "thread_state":"new_thread",
+  "call_to_actions":[
+    {
+      "payload":"GET_STARTED"
+    }
+  ]
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAASVgAGJ3qgBALsVLGiVBbxu5pXSHx9Y9ENqNDNhPJljgQ1Yiu4DFXYCIBlInZByMELiNhD816zY9C4ixfDVbHRKhaZAWLZAM1UvZACpjRNLTrZAmBsYAckZARxUWsZAGKSscQcNKe5K6J9hKXW3ZBGzjqW4foMls9errWLj7fqU7QZDZD"
+
+
+//Messenger extension whitelist domain
+curl -X POST -H "Content-Type: application/json" -d '{
+  "setting_type" : "domain_whitelisting",
+  "whitelisted_domains" : ["https://alfafusion.com"],
+  "domain_action_type": "add"
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=EAASVgAGJ3qgBALsVLGiVBbxu5pXSHx9Y9ENqNDNhPJljgQ1Yiu4DFXYCIBlInZByMELiNhD816zY9C4ixfDVbHRKhaZAWLZAM1UvZACpjRNLTrZAmBsYAckZARxUWsZAGKSscQcNKe5K6J9hKXW3ZBGzjqW4foMls9errWLj7fqU7QZDZD"

@@ -1,0 +1,19 @@
+{
+  "name": "AlfBot",
+  "version": "1.0.0",
+  "description": "Alfafusion Bot",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Kenneth Froyalde",
+  "license": "ISC",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "dependencies": {
+    "node-wit": "4.0.0",
+    "openweather-apis": "3.0.2",
+    "request": "2.74.0",
+    "restify": "4.1.1"
+  }
+}
